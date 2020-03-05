@@ -17,6 +17,12 @@ Usage: check_radius [OPTIONS]
   -C CRITICAL       Critical threshold in milliseconds (default: 2000)
 ```
 
+## Example Output
+```
+./check_radius.sh -H 172.1.33.7 -S "t0pS3CR3T!" -W 200 -C 300
+OK |time=51ms;
+```
+
 ## Command Template
 ```
 object CheckCommand "check-radius" {
